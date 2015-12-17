@@ -10,8 +10,9 @@
 		303631521C233BDC00DA1D1D /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 303631511C233BDC00DA1D1D /* GradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		303631591C233BDC00DA1D1D /* GradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3036314E1C233BDC00DA1D1D /* GradientView.framework */; };
 		3036315E1C233BDC00DA1D1D /* GradientViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036315D1C233BDC00DA1D1D /* GradientViewTests.swift */; };
-		3036316B1C233CFA00DA1D1D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036316A1C233CFA00DA1D1D /* GradientView.swift */; };
 		303631701C233D3000DA1D1D /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 303631511C233BDC00DA1D1D /* GradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3036317A1C2344D600DA1D1D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036316A1C233CFA00DA1D1D /* GradientView.swift */; };
+		3036317B1C2344D700DA1D1D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036316A1C233CFA00DA1D1D /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3036317B1C2344D700DA1D1D /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3036316B1C233CFA00DA1D1D /* GradientView.swift in Sources */,
 				3036315E1C233BDC00DA1D1D /* GradientViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3036317A1C2344D600DA1D1D /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
