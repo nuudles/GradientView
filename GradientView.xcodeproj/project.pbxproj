@@ -190,7 +190,7 @@
 				TargetAttributes = {
 					3036314D1C233BDC00DA1D1D = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0810;
 					};
 					303631571C233BDC00DA1D1D = {
 						CreatedOnToolsVersion = 7.2;
@@ -385,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuudles.GradientView;
 				PRODUCT_NAME = GradientView;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -404,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nuudles.GradientView;
 				PRODUCT_NAME = GradientView;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

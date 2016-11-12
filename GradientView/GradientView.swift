@@ -8,34 +8,34 @@
 
 import UIKit
 
-public class GradientView: UIView {
+open class GradientView: UIView {
 	// MARK: - Class methods
-	public override class func layerClass() -> AnyClass {
+	open override class var layerClass : AnyClass {
 		return CAGradientLayer.self
 	}
 	
 	// MARK: - Public properties
-	public var gradientLayer: CAGradientLayer {
+	open var gradientLayer: CAGradientLayer {
 		return layer as! CAGradientLayer
 	}
-	public var colors: [UIColor]? {
+	open var colors: [UIColor]? {
 		get {
-			guard let colors = gradientLayer.colors as? [CGColorRef] else { return nil }
-			return colors.map { UIColor(CGColor: $0) }
+			guard let colors = gradientLayer.colors as? [CGColor] else { return nil }
+			return colors.map { UIColor(cgColor: $0) }
 		}
 		set {
-			gradientLayer.colors = newValue?.map { $0.CGColor }
+			gradientLayer.colors = newValue?.map { $0.cgColor }
 		}
 	}
-	public var locations: [Float]? {
+	open var locations: [Float]? {
 		get {
 			return gradientLayer.locations as? [Float]
 		}
 		set {
-			gradientLayer.locations = newValue
+			gradientLayer.locations = newValue as [NSNumber]?
 		}
 	}
-	public var endPoint: CGPoint {
+	open var endPoint: CGPoint {
 		get {
 			return gradientLayer.endPoint
 		}
@@ -43,7 +43,7 @@ public class GradientView: UIView {
 			gradientLayer.endPoint = newValue
 		}
 	}
-	public var startPoint: CGPoint {
+	open var startPoint: CGPoint {
 		get {
 			return gradientLayer.startPoint
 		}
