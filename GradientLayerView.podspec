@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'GradientLayerView'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.license = 'MIT'
   s.summary = 'The GradientView is a simple UIView with a CAGradientLayer, forwarding its properties up'
   s.homepage = 'https://github.com/nuudles/GradientView'
