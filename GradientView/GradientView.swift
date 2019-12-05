@@ -10,10 +10,10 @@ import UIKit
 
 open class GradientView: UIView {
 	// MARK: - Class methods
-	open override class var layerClass : AnyClass {
+	open override class var layerClass: AnyClass {
 		return CAGradientLayer.self
 	}
-	
+
 	// MARK: - Public properties
 	open var gradientLayer: CAGradientLayer {
 		return layer as! CAGradientLayer
