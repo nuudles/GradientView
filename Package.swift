@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ImageViewer",
+    name: "GradientView",
     platforms: [
         .iOS(.v10)
     ],
